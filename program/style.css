@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    background-image: url("../image/AFRICA.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 40px;
+    color: blue;
+}
+nav ul{
+    float: right;
+    line-height: 85px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px 8px;
+}
+ 
+nav ul li a:hover{
+    background-color: blueviolet;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: blueviolet;
+}
+
+.main-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 50px;
+}
+
+ .main-content h1{
+    font-size: 30px;
+    color: blue;
+    line-height: normal;
+    font-weight: 400;
+    margin-bottom:  20px;
+    text-transform: uppercase;
+ }
+.main-content p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 40px;
+
+}
+.main-content .btn{
+    color: blue;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color:brown;
+}
+.main-content .btn:hover{
+    background-color: whitesmoke;
+    transform: 0.5s ease;
+}
+
+
